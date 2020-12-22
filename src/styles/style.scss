@@ -95,5 +95,20 @@ height: 30vh;
 }
 
 .sectionImage {
-  height: 100px;
+  width:50vw;
+}
+
+.skillsSection {
+  display: flex;
+  flex-direction: row;
+  justify-items: space-between;
+  background-color: var(--mid);
+}
+.skillsIcons{
+  width: 50vw;
+  margin:20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
 }
