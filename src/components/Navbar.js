@@ -19,6 +19,4 @@ const NavBar = () => {
   </main>
 }
 
-// ! withRouter will give us the route props we have on every route,
-// ! e.g. match, location, history
 export default NavBar

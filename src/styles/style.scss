@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600&display=swap');
 
 :root {
+  --superLight: #cafafe;
+  --dark: #fc4445;
+  --mid: #55bcc9;
+  --light: #3feee6;
+  --extraLight: #97caef;
   --background: #feffff;
-  --dark: #17252A;
-  --mid: #2b7a78;
-  --light: #3aafa9;
-  --extraLight: #def2f1;
   --font: 'Source Sans Pro', sans-serif;
 }
 * {
@@ -23,15 +24,22 @@ body {
   padding: 0;
   font-family: var(--font);
 }
+h1{
+  color: var(--dark);
 
+}
 .hero {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
   width: 90vw;
   margin: 40px;
+  border-radius: 10px;
 }
 nav{
   display: flex;
   flex-direction: row;
+  border: solid var(--extraLight) 3px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
 }
 ul {
   padding:30px;
@@ -43,7 +51,8 @@ ul {
     list-style: none;
   }  
   a{
-    color: var(--light);
+    font-size: 150%;
+    color: var(--extraLight);
     padding:20px;
       text-decoration: none;
     }
@@ -57,6 +66,34 @@ ul {
   background-color:var(--dark);
 }
 #logo {
-  margin: 40px;
+  margin: 5px;
   height: 110px;
+}
+
+#aboutSkills {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.about{
+  position: relative;
+}
+
+.aboutParagraph{
+text-align: justify;
+text-justify: inter-word;
+}
+.splash {
+height: 30vh;
+}
+.aboutText{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.sectionImage {
+  height: 100px;
 }
