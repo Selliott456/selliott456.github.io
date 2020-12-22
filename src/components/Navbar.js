@@ -1,6 +1,4 @@
 import React from 'react'
-
-import { Link, withRouter } from 'react-router-dom'
 import logo from '../styles/logo.png'
 
 const NavBar = () => {
