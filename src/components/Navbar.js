@@ -7,7 +7,7 @@ const NavBar = () => {
   return <main className="navMain">
     <header>
       <nav id="webNav">
-        <img id="logo" src={logo}></img>
+        {/* <img id="logo" src={logo}></img> */}
         <ul>
           <li className="navList"><a href="/About">About</a></li>
           <li className="navList"><a href="/Skills">Skills</a></li>

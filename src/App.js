@@ -22,8 +22,9 @@ const App = () => {
   </BrowserRouter>
 
   return <main>
-    <NavBar />
+   
     <Hero />
+    <NavBar />
     <About />
     <Skills />
     <Projects />
