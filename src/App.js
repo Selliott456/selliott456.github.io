@@ -1,13 +1,13 @@
 import React from 'react'
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
-import NavBar from './components/NavBar'
+// import NavBar from './components/NavBar'
 import Hero from './components/Hero'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import About from './components/About'
-// import hero from './styles/hero.png'
+
 import './styles/style.scss'
 
 const App = () => {
@@ -22,8 +22,9 @@ const App = () => {
   </BrowserRouter>
 
   return <main>
-    <NavBar />
+   
     <Hero />
+    {/* <NavBar /> */}
     <About />
     <Skills />
     <Projects />
