@@ -137,3 +137,16 @@ height: 30vh;
     }
 }
 
+.projectsMain {
+  background-color: var(--light);
+  .project{
+    display:flex;
+    flex-direction: row;
+    .projectBlurb {
+      display: flex;
+      flex-direction: column;
+    }
+
+  }
+}
+
