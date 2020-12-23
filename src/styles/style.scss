@@ -139,6 +139,8 @@ height: 30vh;
 
 .projectsMain {
   background-color: var(--light);
+  width: 90vw;
+  margin: auto;
   .project{
     display:flex;
     flex-direction: row;
