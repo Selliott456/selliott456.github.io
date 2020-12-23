@@ -1,7 +1,7 @@
 import React from 'react'
 import section from '../styles/section.png'
 import { DiJsBadge, DiHtml5, DiCss3, DiSass, DiReact, DiNodejsSmall, DiMongodb, DiPython, DiGit, DiGithubBadge, DiTerminal, DiResponsive, DiNpm, DiVisualstudio } from 'react-icons/di'
-import { SiFlask, SiPostgresql, SiHeroku, SiNetlify, SiSlack, SiZoom, SiBabel } from 'react-icons/si'
+import { SiFlask, SiPostgresql, SiHeroku, SiNetlify, SiBabel, SiSocketDotIo } from 'react-icons/si'
 import { IoAccessibilityOutline } from 'react-icons/io5'
 
 
@@ -9,87 +9,87 @@ const Skills = () => {
   return <main className="mainSkills">
     <h1>Skills</h1>
     <div className="skillsSection">
-      <img className="sectionImage" src={section}></img>
+      {/* <img className="sectionImage" src={section}></img> */}
       <div className="skillsIcons">
-      <div>
-          <DiJsBadge />
+        <div className="skillBadge">
+          <DiJsBadge size={40} />
           <p>JavaScript</p>
         </div>
-        <div>
-          <DiHtml5 />
+        <div className="skillBadge">
+          <DiHtml5  size={40}/>
           <p>HTML</p>
         </div>
-        <div>
-          <DiCss3 />
+        <div className="skillBadge">
+          <DiCss3 size={40}/>
           <p>CSS</p>
         </div>
-        <div>
-          <DiSass />
+        <div className="skillBadge">
+          <DiSass size={40}/>
           <p>Sass</p>
         </div>
-        <div>
-          <DiReact />
+        <div className="skillBadge">
+          <DiReact size={40}/>
           <p>React</p>
         </div>
-        <div>
-          <DiNodejsSmall />
+        <div className="skillBadge">
+          <DiNodejsSmall size={40}/>
           <p>Node.js</p>
         </div>
-        <div>
-          <DiNpm />
+        <div className="skillBadge">
+          <DiNpm size={40}/>
           <p>NPM</p>
         </div>
-        <div>
-          <SiBabel />
+        <div className="skillBadge">
+          <SiBabel size={40}/>
           <p>Babel</p>
         </div>
-        <div>
-          <DiMongodb />
+        <div className="skillBadge">
+          <DiMongodb size={40}/>
           <p>MongoDB</p>
         </div>
-        <div>
-          <DiPython />
+        <div className="skillBadge">
+          <DiPython size={40}/>
           <p>Python</p>
         </div>
-        <div>
-          <SiFlask />
+        <div className="skillBadge">
+          <SiFlask size={40}/>
           <p>Flask</p>
         </div>
-        <div>
-          <SiPostgresql />
+        <div className="skillBadge">
+          <SiPostgresql size={40}/>
           <p>PostgreSQL</p>
         </div>
-        <div>
-          <DiVisualstudio />
+        <div className="skillBadge">
+          <DiVisualstudio size={40}/>
           <p>VS Code</p>
         </div>
-        <div>
-          <DiGit />
+        <div className="skillBadge">
+          <DiGit size={40}/>
           <p>Git</p>
         </div>
-        <div>
-          <DiGithubBadge />
+        <div className="skillBadge">
+          <DiGithubBadge size={40}/>
           <p>GitHub</p>
         </div>
-        <div>
-          <DiTerminal />
+        <div className="skillBadge">
+          <DiTerminal size={40}/>
           <p>CLI</p>
         </div>
-        <div>
-          <SiHeroku />
+        <div className="skillBadge">
+          <SiHeroku size={40}/>
           <p>Heroku</p>
         </div>
-        <div>
-          <SiNetlify />
+        <div className="skillBadge">
+          <SiNetlify size={40}/>
           <p>Netlify</p>
         </div>
-        <div>
-          <IoAccessibilityOutline />
+        <div className="skillBadge">
+          <IoAccessibilityOutline size={40}/>
           <p>Accessibility</p>
         </div>
-        <div>
-          <DiResponsive />
-          <p>Responsive Design</p>
+        <div className="skillBadge">
+          <SiSocketDotIo size={40} color="red" />
+          <p>Socket.Io</p>
         </div>
       </div>
     </div>
