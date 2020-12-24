@@ -38,8 +38,9 @@ nav{
   display: flex;
   flex-direction: row;
   border: solid var(--extraLight) 3px;
-  border-radius: 10px;
+  // border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+  position: -webkit-sticky; 
 }
 ul {
   padding:30px;
@@ -59,11 +60,11 @@ ul {
 }
 #webNav {
   margin:auto;
-  width: 90vw;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  background-color:var(--dark);
+  background: linear-gradient(rgba(0, 3, 5, 0.9), rgba(0, 3, 5, 0.9)), url("../styles/keyboard.png") no-repeat fixed 50% 0px / cover;
+  
 }
 #logo {
   margin: 5px;
@@ -103,18 +104,22 @@ height: 30vh;
 
 .skillsSection {
   width:90vw;
-  
   margin: auto;
   display: flex;
   flex-direction: row;
   justify-items: space-between;
   background: linear-gradient(rgba(0, 3, 5, 0.9), rgba(0, 3, 5, 0.9)), url("../styles/section.png") no-repeat fixed 50% 0px / cover;
+    .skillsImage {
+      margin:auto;
+      width: 300px;
+      height: 300px;
+    }  
+
     h1 {
       margin:auto;
       font-size: 200px;
     }
     .skillsIcons{
-      width: 60vw;
       margin: 50px;
       display: flex;
       flex-direction: row;
@@ -137,8 +142,27 @@ height: 30vh;
     }
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.formInput {
+  width: 25vw;
+  border-radius: 5px;
+}
+
+.mainFooter {
+  display: flex;
+  flex-direction:row;
+
+  .footerImage{
+    width: 100px;
+  }
+}
+
 .projectsMain {
-  background-color: var(--light);
+  
   width: 90vw;
   margin: auto;
   .project{

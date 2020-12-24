@@ -10,12 +10,8 @@ const About = () => {
       <img className="splash" src={splashLeft}></img>
       <p className="aboutParagraph">
         For 15 years or so (read the glorious era of my 20s where my knees didn’t complain)
-        I was teaching Physics to 11-18 year olds. Now I am a full stack developer with
-        experience in a range of technologies who
-      enjoys making beautifully crafted, user-friendly software.<br></br><br></br>
-      {/* I believe that meaningful software development has the power to change lives and */}
-      {/* uplift communities and I am excited to be able to contribute my skills and point */}
-      {/* of view to the development community and those it serves. */}
+        I was teaching Physics to 11-18 year olds. I am now a full stack developer with
+        experience in a range of technologies who enjoys making beautifully crafted, user-friendly software.
       </p>
       <img className="splash" src={splashRight}></img>
     </div>

@@ -8,7 +8,7 @@ import { IoAccessibilityOutline } from 'react-icons/io5'
 const Skills = () => {
   return <main className="mainSkills">
     <div className="skillsSection">
-      <img src={skills}></img>
+      <img className="skillsImage" src={skills}></img>
       <div className="skillsIcons">
         <div className="skillBadge">
           <DiJsBadge size={40} color="#fc4445" />
