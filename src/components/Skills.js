@@ -15,75 +15,75 @@ const Skills = () => {
           <p>JavaScript</p>
         </div>
         <div className="skillBadge">
-          <DiHtml5  size={40} color="#fc4445"/>
+          <DiHtml5 size={40} color="#fc4445" />
           <p>HTML</p>
         </div>
         <div className="skillBadge">
-          <DiCss3 size={40} color="#fc4445"/>
+          <DiCss3 size={40} color="#fc4445" />
           <p>CSS</p>
         </div>
         <div className="skillBadge">
-          <DiSass size={40} color="#fc4445"/>
+          <DiSass size={40} color="#fc4445" />
           <p>Sass</p>
         </div>
         <div className="skillBadge">
-          <DiReact size={40} color="#fc4445"/>
+          <DiReact size={40} color="#fc4445" />
           <p>React</p>
         </div>
         <div className="skillBadge">
-          <DiNodejsSmall size={40} color="#fc4445"/>
+          <DiNodejsSmall size={40} color="#fc4445" />
           <p>Node.js</p>
         </div>
         <div className="skillBadge">
-          <DiNpm size={40} color="#fc4445"/>
+          <DiNpm size={40} color="#fc4445" />
           <p>NPM</p>
         </div>
         <div className="skillBadge">
-          <SiBabel size={40} color="#fc4445"/>
+          <SiBabel size={40} color="#fc4445" />
           <p>Babel</p>
         </div>
         <div className="skillBadge">
-          <DiMongodb size={40} color="#fc4445"/>
+          <DiMongodb size={40} color="#fc4445" />
           <p>MongoDB</p>
         </div>
         <div className="skillBadge">
-          <DiPython size={40} color="#fc4445"/>
+          <DiPython size={40} color="#fc4445" />
           <p>Python</p>
         </div>
         <div className="skillBadge">
-          <SiFlask size={40} color="#fc4445"/>
+          <SiFlask size={40} color="#fc4445" />
           <p>Flask</p>
         </div>
         <div className="skillBadge">
-          <SiPostgresql size={40} color="#fc4445"/>
+          <SiPostgresql size={40} color="#fc4445" />
           <p>PostgreSQL</p>
         </div>
         <div className="skillBadge">
-          <DiVisualstudio size={40} color="#fc4445"/>
+          <DiVisualstudio size={40} color="#fc4445" />
           <p>VS Code</p>
         </div>
         <div className="skillBadge">
-          <DiGit size={40} color="#fc4445"/>
+          <DiGit size={40} color="#fc4445" />
           <p>Git</p>
         </div>
         <div className="skillBadge">
-          <DiGithubBadge size={40} color="#fc4445"/>
+          <DiGithubBadge size={40} color="#fc4445" />
           <p>GitHub</p>
         </div>
         <div className="skillBadge">
-          <DiTerminal size={40} color="#fc4445"/>
+          <DiTerminal size={40} color="#fc4445" />
           <p>CLI</p>
         </div>
         <div className="skillBadge">
-          <SiHeroku size={40} color="#fc4445"/>
+          <SiHeroku size={40} color="#fc4445" />
           <p>Heroku</p>
         </div>
         <div className="skillBadge">
-          <SiNetlify size={40} color="#fc4445"/>
+          <SiNetlify size={40} color="#fc4445" />
           <p>Netlify</p>
         </div>
         <div className="skillBadge">
-          <IoAccessibilityOutline size={40} color="#fc4445"/>
+          <IoAccessibilityOutline size={40} color="#fc4445" />
           <p>Accessibility</p>
         </div>
         <div className="skillBadge">
@@ -92,6 +92,7 @@ const Skills = () => {
         </div>
       </div>
     </div>
+   
   </main>
 }
 
