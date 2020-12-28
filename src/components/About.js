@@ -4,7 +4,7 @@ import splashLeft from '../styles/splashLeft.png'
 import about from '../styles/about.png'
 const About = () => {
   return <main className="about">
-    <img src={about}></img>
+    <img className="sprayTitle" src={about}></img>
     <div className="aboutText">
       <p className="aboutParagraph">
         For 15 years or so (read the glorious era of my 20s where my knees didn’t complain)
