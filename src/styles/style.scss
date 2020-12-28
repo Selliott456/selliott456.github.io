@@ -38,7 +38,6 @@ h1{
 nav{
   display: flex;
   flex-direction: row;
-  // border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
   width: 90vw;
   border-radius: 3px;
@@ -54,7 +53,7 @@ ul {
   }  
   a{
     font-size: 150%;
-    color: var(--extraLight);
+    color: var(--mid);
     padding:20px;
       text-decoration: none;
     }
@@ -65,7 +64,8 @@ ul {
   flex-direction: row;
   justify-content: space-evenly;
   background: linear-gradient(rgba(0, 3, 5, 0.9), rgba(0, 3, 5, 0.9)), url("../styles/keyboard.png") no-repeat fixed 50% 0px / cover;
-  
+  width: 90vw;
+  border-radius: 4px;
 }
 #logo {
   margin: 5px;
@@ -83,10 +83,6 @@ ul {
   position: relative;
   margin:40px;
   width: 90vw;
-  // background-image: url("./greytech.png");
-  // background-size: cover;
-    // background-repeat: no-repeat;
-   
   
 }
 
@@ -111,30 +107,30 @@ width: 70vw;
 }
 
 .skillsSection {
-  border-radius: 3px;
+  border-radius: 4px;
   width:90vw;
   margin: auto;
   display: flex;
   flex-direction: row;
   justify-items: space-between;
+  align-items: center;
   background: linear-gradient(rgba(0, 3, 5, 0.9), rgba(0, 3, 5, 0.9)), url("../styles/section.png") no-repeat fixed 50% 0px / cover;
     .skillsImage {
-      margin:auto;
-      width: 300px;
-      height: 300px;
+      width: 30%;
+      margin-left: 40px;
+      
+      
     }  
-  
-
     h1 {
       margin:auto;
       font-size: 200px;
     }
     .skillsIcons{
-      margin: 50px;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      margin:auto;
+      width: 50%;
+      margin: 10vw;
       
     }
 }
@@ -145,44 +141,41 @@ width: 70vw;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  margin: 20px;
+  margin: 0px;
     p{
       color: var(--mid);
     }
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.formInput {
-  width: 25vw;
-  border-radius: 5px;
-}
-
 .mainFooter {
+  width: 90vw;
+  display:flex;
+  flex-direction: column;
+  margin:auto;
+  background: linear-gradient(rgba(0, 3, 5, 0.9), rgba(0, 3, 5, 0.9)), url("../styles/keyboard.png");
+  background-position: center;
+  border-radius: 4px;
+
+}
+.icons {
   display: flex;
   flex-direction:row;
-
+  justify-content: space-evenly;
   .footerImage{
     width: 100px;
   }
 }
 
 .projectsMain {
-  
   color: var(--background);
   width: 90vw;
   margin: auto;
+  margin-top: 40px;
   h2{
     color: var(--mid)
   }
   .project{
     margin-top: 30px;
-    background: linear-gradient(rgba(0, 3, 5, 0.9), rgba(0, 3, 5, 0.9));
-    box-shadow: 0 4px 8px 0 var(--dark);
     border-radius: 4px;
     display:flex;
     flex-direction: row;
@@ -190,15 +183,113 @@ form {
     justify-items: space-between;
     align-items: center;
     .projectBlurb {
+      border-radius: 4px;
       display: flex;
       flex-direction: column;
       padding:30px;
+      background: linear-gradient(rgba(0, 3, 5, 0.9), rgba(0, 3, 5, 0.7));
+      width: 50%;
     }
     .projectImg {
-      height:300px;
+      width: 50%;
+      margin:auto;
+      padding:30px;
+     
+     
     }
-    p {
-    }
+   button {
+     padding:10px 20px;
+     margin:10px;
+     border-radius: 10px;
+     background-color: var(--dark);
+     border: none;
+     
+     a {
+       text-decoration: none;
+       color: var(--background)
+     }
+   }
+   button:hover{
+    background-color: #b83131;
   }
+  }
+}
+
+.contactMain {
+  margin: 50px;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .formInput {
+    width: 25vw;
+    height: 30px;
+    border-radius: 5px;
+    border: solid black 1px;
+    background: linear-gradient(rgba(0, 3, 5, 0.8), rgba(0, 3, 5, 0.8));
+    font-family: var(--font);
+    color: var(--background)
+  }
+  .message {
+    height:200px;
+    width: 25vw;
+    border-radius: 5px;
+    background: linear-gradient(rgba(0, 3, 5, 0.8), rgba(0, 3, 5, 0.8));
+    font-family: var(--font);
+    color: var(--background)
+  }
+  .formSend{
+    padding:10px 20px;
+     margin:10px;
+     border-radius: 10px;
+     background-color: var(--dark);
+     border: none;
+     color: var(--background)
+  }
+  .formLabel {
+    margin: 8px;
+    color: var(--mid)
+  }
+  .formSend:hover{
+    background-color: #b83131;
+  }
+}
+.mobileHero{
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+ 
+    .hero {
+      display:none;
+    }
+    .mobileHero{
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+      width: 90vw;
+      margin: 40px;
+      border-radius: 10px;
+    }
+    .sprayTitle{
+      margin: auto;
+      width:50vw;
+    }
+    .skillsSection {
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      margin:auto;
+      .skillsImage{
+        width: 40vw;
+      }
+      
+    }
+    .project {
+      display:flex;
+      flex-direction: column;
+    }
+    
+  
 }
 

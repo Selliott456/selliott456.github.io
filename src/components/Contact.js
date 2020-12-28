@@ -1,29 +1,12 @@
 import React from 'react'
-// import contact from '../styles/contact.png'
+import contact from '../styles/contact.png'
 import { useState } from 'react'
 import emailjs from 'emailjs-com'
+import logo from '../styles/logo.png'
 
 
 
 const Contact = () => {
-
-  // const [formData, updateFormData] = useState({
-  // name: '',
-  // email: '',
-  // message: ''
-  // })
-
-  // function handleChange(event) {
-  // const name = event.target.name
-  // const value = event.target.value
-  // 
-  // const data = {
-  // ...formData,
-  // [name]: value
-  // }
-  // 
-  // updateFormData(data)
-  // }
 
   function sendEmail(e) {
     e.preventDefault()
@@ -37,6 +20,7 @@ const Contact = () => {
   }
 
   return (<main className="contactMain">
+    <img className="sprayTitle" src={contact}></img>
     <form className="contact-form" onSubmit={sendEmail}>
       <input className="formInput" type="hidden" name="contact_number" />
       <label className="formLabel">Name</label>
@@ -46,9 +30,10 @@ const Contact = () => {
       <label className="formLabel">Subject</label>
       <input className="formInput" type="text" name="subject" />
       <label className="formLabel">Message</label>
-      <textarea name="message" />
+      <textarea className="message" />
       <input className="formSend" type="submit" value="Send" />
     </form>
+    <a href="/"><img className="footerLogo" src={logo}></img></a>
   </main>
   )
 }

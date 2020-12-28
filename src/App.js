@@ -14,11 +14,11 @@ import './styles/style.scss'
 const App = () => {
   <BrowserRouter>
     <Switch>
-      <Route exact path="/" component={Hero} />
       <Route exact path="/About" component={About} />
       <Route exact path="/Skills" component={Skills} />
       <Route exact path="/Projects" component={Projects} />
       <Route exact path="/Contact" component={Contact} />
+      <Route exact path="/" component={Hero} />
     </Switch>
   </BrowserRouter>
 
