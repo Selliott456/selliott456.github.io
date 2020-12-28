@@ -6,10 +6,11 @@ import projectThree from '../styles/projectThree.png'
 import projectFour from '../styles/projectFour.png'
 
 
+
 const Projects = () => {
   return <main className="projectsMain">
     <img src={projects}></img>
-  
+
     <div className="project">
       <div className="projectBlurb">
         <h2>You Want A Pizza Me?</h2>
@@ -19,54 +20,69 @@ const Projects = () => {
         through restaurants in their area. The API allowed us to populate our pages
         wth information such as cuisines, addresses, order details and ratings.
         </p>
+        <div className="buttons">
+          <button><a className="button" href="https://prodigresser.github.io/project-2/">Live Site</a></button>
+          <button><a className="button" href="https://github.com/Selliott456/project-2">Code</a></button>
+        </div>
       </div>
-      <img src={projectTwo}></img>
+      <img className="projectImg" src={projectTwo}></img>
     </div>
-    
+
     <div className="project">
       <div className="projectBlurb">
         <h2>Devs.Map</h2>
         <h4>React | Sass | Node.js | MongoDB | Heroku | Socket.io </h4>
         <p>This was a group project completed in one week. We designed this fullstack
-        application as a mix of a travel blog and dating site for Devs on the move to
+        application as a mix of a travel blog and dating site for developers on the move to
         link up for collaborations and use our chat function to have conversations
         online.<br></br><br></br>
         I was responsible for building the chatroom using socket.io and creating the basic
         layout of the pages on the frontend.
         </p>
+        <div className="buttons">
+          <button><a className="button" href="https://still-river-70995.herokuapp.com">Live Site</a></button>
+          <button><a className="button" href="https://github.com/Selliott456/project-3">Code</a></button>
+
+        </div>
       </div>
-      <img src={projectThree}></img>
+      <img className="projectImg" src={projectThree}></img>
     </div>
     <div className="project">
       <div className="projectBlurb">
         <h2>HowTo Tube</h2>
         <h4>React | Sass | Python | Flask | PostgreSQL</h4>
-        <p>This was a group project completed in one week. Our vision for this project
-        was to create a marketable piece of software that acted as a platform for professional
-        development via online tutorials. Users are invited to create profiles and add videos
+        <p>This was a group project completed in one week. We aimed to create a marketable platform for professional
+        development. Users are invited to create profiles and add videos
         to their page. Based on who they choose to follow and what genres they have selected
         as interesting during sign-up, videos are suggested to them at the bottom of their
-        profile. Users are also able to add comments (which are nested for replies) on videos
-        as they wish.<br></br><br></br>
+        profile. Users are also able to add comments on videos as they please.<br></br><br></br>
         I was responsible for setting up routes and creating the basic models on the backend
         for users and videos as well as creating the front end sign-up, login and home pages.
          I also styled the entire project.
         </p>
+        <div className="buttons">
+          <button><a className="button" href="http://sherryll-howto-tube.herokuapp.com/">Live Site</a></button>
+          <button><a className="button" href="https://github.com/Selliott456/project-4">Code</a></button>
+        </div>
       </div>
-      <img src={projectFour}></img>
+      <img className="projectImg" src={projectFour}></img>
     </div>
     <div className="project">
       <div className="projectBlurb">
         <h2>Help Cher Turn Back Time</h2>
         <h4>HTML | CSS | Javascript</h4>
         <p>This was a solo project completed in one week
-        It was my own diva-laden take on a space invaders theme.
+        It was my own diva-laden take on the famous Space Invaders .
         Play along and shoot CDs at the approaching clocks. Avoid
         the cannon balls from the USS Missouri - the set of one of
         the most iconic Cher videos of all time!
         </p>
+        <div className="buttons">
+          <button><a className="button" href="https://selliott456.github.io/Project-one/ ">Live Site</a></button>
+          <button><a className="button" href="https://github.com/Selliott456/Project-one">Code</a></button>
+        </div>
       </div>
-      <img src={projectOne}></img>
+      <img className="projectImg" src={projectOne}></img>
     </div>
   </main>
 }

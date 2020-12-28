@@ -94,10 +94,9 @@ ul {
 text-align: justify;
 text-justify: inter-word;
 font-size: 20px;
+width: 70vw;
 }
-.splash {
-height: 30vh;
-}
+
 .aboutText{
   display: flex;
   flex-direction: row;
@@ -174,16 +173,32 @@ form {
 
 .projectsMain {
   
+  color: var(--background);
   width: 90vw;
   margin: auto;
+  h2{
+    color: var(--mid)
+  }
   .project{
+    margin-top: 30px;
+    background: linear-gradient(rgba(0, 3, 5, 0.9), rgba(0, 3, 5, 0.9));
+    box-shadow: 0 4px 8px 0 var(--dark);
+    border-radius: 4px;
     display:flex;
     flex-direction: row;
+    
+    justify-items: space-between;
+    align-items: center;
     .projectBlurb {
       display: flex;
       flex-direction: column;
+      padding:30px;
     }
-
+    .projectImg {
+      height:300px;
+    }
+    p {
+    }
   }
 }
 
