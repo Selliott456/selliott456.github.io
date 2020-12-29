@@ -8,7 +8,7 @@ import { IoAccessibilityOutline } from 'react-icons/io5'
 const Skills = () => {
   return <main className="mainSkills">
     <div className="skillsSection">
-      <img className="skillsImage" src={skills}></img>
+      <img className="skillsImage" src={skills} alt="skills"></img>
       <div className="skillsIcons">
         <div className="skillBadge">
           <DiJsBadge size={40} color="#fc4445" />
@@ -81,10 +81,6 @@ const Skills = () => {
         <div className="skillBadge">
           <SiNetlify size={40} color="#fc4445" />
           <p>Netlify</p>
-        </div>
-        <div className="skillBadge">
-          <IoAccessibilityOutline size={40} color="#fc4445" />
-          <p>Accessibility</p>
         </div>
         <div className="skillBadge">
           <SiSocketDotIo size={40} color="#fc4445" />
