@@ -12,7 +12,6 @@ import Footer from './components/Footer'
 import './styles/style.scss'
 
 const App = () => {
-
   return <main>
     <Hero />
     <NavBar />
