@@ -14,7 +14,7 @@
 }
 body {
   background: var(--background);
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -179,31 +179,16 @@ width: 70vw;
     border-radius: 4px;
     display:flex;
     flex-direction: row;
-    
     justify-items: space-between;
     align-items: center;
-    .projectBlurb {
-      border-radius: 4px;
-      display: flex;
-      flex-direction: column;
-      padding:30px;
-      background: linear-gradient(rgba(0, 3, 5, 0.9), rgba(0, 3, 5, 0.7));
-      width: 50%;
-    }
-    .projectImg {
-      width: 50%;
-      margin:auto;
-      padding:30px;
-     
-     
-    }
+    
    button {
      padding:10px 20px;
      margin:10px;
      border-radius: 10px;
-     background-color: var(--dark);
+     background-color:var(--dark);
      border: none;
-     
+     font-size: 15px;
      a {
        text-decoration: none;
        color: var(--background)
@@ -214,6 +199,24 @@ width: 70vw;
   }
   }
 }
+.mobileColumn {
+  display:flex;
+flex-direction: row;
+}
+
+.projectBlurb {
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  padding:30px;
+  background: linear-gradient(rgba(0, 3, 5, 0.9), rgba(0, 3, 5, 0.7));
+  width: 50%;
+}
+.projectImg {
+  width: 50%;
+  margin:auto;
+  padding:30px;
+}
 
 .contactMain {
   margin: 50px;
@@ -223,44 +226,47 @@ width: 70vw;
     flex-direction: column;
     align-items: center;
   }
-  .formInput {
-    width: 25vw;
-    height: 30px;
-    border-radius: 5px;
-    border: solid black 1px;
-    background: linear-gradient(rgba(0, 3, 5, 0.8), rgba(0, 3, 5, 0.8));
-    font-family: var(--font);
-    color: var(--background)
-  }
-  .message {
-    height:200px;
-    width: 25vw;
-    border-radius: 5px;
-    background: linear-gradient(rgba(0, 3, 5, 0.8), rgba(0, 3, 5, 0.8));
-    font-family: var(--font);
-    color: var(--background)
-  }
+  
   .formSend{
     padding:10px 20px;
      margin:10px;
      border-radius: 10px;
      background-color: var(--dark);
      border: none;
-     color: var(--background)
+     color: var(--background);
+     font-size: 20px;
   }
   .formLabel {
     margin: 8px;
-    color: var(--mid)
+    color: black;
   }
   .formSend:hover{
     background-color: #b83131;
   }
 }
+.formInput {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  border: solid black 1px;
+  background: linear-gradient(rgba(0, 3, 5, 0.8), rgba(0, 3, 5, 0.8));
+  font-family: var(--font);
+  color: var(--background)
+}
+.message {
+  height:200px;
+  width: 300px;
+  border-radius: 5px;
+  background: linear-gradient(rgba(0, 3, 5, 0.8), rgba(0, 3, 5, 0.8));
+  font-family: var(--font);
+  color: var(--background)
+}
+@media only screen and (min-width: 786px) {
 .mobileHero{
   display: none;
 }
-
-@media only screen and (max-width: 600px) {
+}
+@media only screen and (max-width: 786px) {
  
     .hero {
       display:none;
@@ -279,17 +285,31 @@ width: 70vw;
       display:flex;
       flex-direction: column;
       align-items: center;
+      justify-content: center;
       margin:auto;
-      .skillsImage{
-        width: 40vw;
-      }
-      
+    .skillsIcons{
+      margin:auto;
+      width:90%;
     }
-    .project {
+    .skillsImage{
+      width: 40vw;
+    }
+    }
+    .mobileColumn {
       display:flex;
       flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
-    
+  .projectBlurb {
+    width: 90vw;
+  }
+  .projectImg {
+    width: 90vw;
+    border-bottom: solid 1px gray;
+  }
   
 }
-
+.footerLogo {
+  height: 200px;
+}

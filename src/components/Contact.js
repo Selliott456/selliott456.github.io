@@ -20,7 +20,7 @@ const Contact = () => {
   }
 
   return (<main className="contactMain">
-    <img className="sprayTitle" src={contact}></img>
+    <img className="sprayTitle" src={contact} alt="contact"></img>
     <form className="contact-form" onSubmit={sendEmail}>
       <input className="formInput" type="hidden" name="contact_number" />
       <label className="formLabel">Name</label>
