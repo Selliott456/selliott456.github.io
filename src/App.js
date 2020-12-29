@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
-import NavBar from './components/NavBar'
+import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
@@ -14,7 +14,7 @@ import './styles/style.scss'
 const App = () => {
   return <main>
     <Hero />
-    <NavBar />
+    <Navbar />
     <About />
     <Skills />
     <Projects />

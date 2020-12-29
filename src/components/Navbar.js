@@ -4,7 +4,7 @@ import github from '../styles/github.png'
 import linked from '../styles/linked.png'
 // import logo from '../styles/logo.png'
 
-const NavBar = () => {
+const Navbar = () => {
 
 
   return <main className="navMain">
@@ -18,4 +18,4 @@ const NavBar = () => {
   </main>
 }
 
-export default NavBar
+export default Navbar
