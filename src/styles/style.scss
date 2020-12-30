@@ -123,13 +123,16 @@ width: 70vw;
       margin:auto;
       font-size: 200px;
     }
-    .skillsIcons{
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      width: 50%;
-      margin: 40px auto;
-    }
+    
+}
+.skillsIcons{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 40px auto;
 }
 
 .skillBadge {
@@ -277,6 +280,8 @@ flex-direction: row;
     .sprayTitle{
       margin: auto;
       width:50vw;
+      margin:0;
+    
     }
     .skillsSection {
       display:flex;
@@ -284,13 +289,14 @@ flex-direction: row;
       align-items: center;
       justify-content: center;
       margin:auto;
-    .skillsIcons{
-      margin:auto;
-      width:90%;
-    }
+    
     .skillsImage{
       width: 40vw;
     }
+    }
+    .skillsIcons{
+      margin: auto;
+      width:90vw;
     }
     .mobileColumn {
       display:flex;
