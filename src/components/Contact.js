@@ -30,7 +30,7 @@ const Contact = () => {
       <label className="formLabel">Subject</label>
       <input className="formInput" type="text" name="subject" />
       <label className="formLabel">Message</label>
-      <textarea className="message" />
+      <textarea className="message" name="message" />
       <input className="formSend" type="submit" value="Send" />
     </form>
     <a href="/"><img className="footerLogo" src={logo}></img></a>
