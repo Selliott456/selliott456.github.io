@@ -10,27 +10,7 @@ import Fade from 'react-reveal/Fade';
 const Projects = () => {
   return <main className="projectsMain">
     <img className="sprayTitle" src={projects} alt="projects"></img>
-    <div className="project">
-      <Fade bottom>
-        <div className="mobileColumn">
-          <img className="projectImg" src={projectTwo} alt="project 2 image"></img>
-          <div className="projectBlurb">
-            <h2>You Want A Pizza Me?</h2>
-            <h4>React | JSX | CSS</h4>
-            <p>This was a pair project completed in 48 hours. We used the Just Eat API
-            and postcodes.io to create a marketable project which allowed users to look
-            through restaurants in their area. The API allowed us to populate our pages
-            wth information such as cuisines, addresses, order details and ratings.
-            </p>
-            <div className="buttons">
-              <button><a className="button" href="https://prodigresser.github.io/project-2/">Live Site</a></button>
-              <button><a className="button" href="https://github.com/Selliott456/project-2">Code</a></button>
-            </div>
-          </div>
-
-        </div>
-      </Fade>
-    </div>
+    
     <div className="project">
       <Fade bottom>
         <div className="mobileColumn">
@@ -80,11 +60,32 @@ const Projects = () => {
     <div className="project">
       <Fade bottom>
         <div className="mobileColumn">
+          <img className="projectImg" src={projectTwo} alt="project 2 image"></img>
+          <div className="projectBlurb">
+            <h2>You Want A Pizza Me?</h2>
+            <h4>React | JSX | CSS</h4>
+            <p>This was a pair project completed in 48 hours. We used the Just Eat API
+            and postcodes.io to create a marketable project which allowed users to look
+            through restaurants in their area. The API allowed us to populate our pages
+            with information such as cuisines, addresses, order details and ratings.
+            </p>
+            <div className="buttons">
+              <button><a className="button" href="https://prodigresser.github.io/project-2/">Live Site</a></button>
+              <button><a className="button" href="https://github.com/Selliott456/project-2">Code</a></button>
+            </div>
+          </div>
+
+        </div>
+      </Fade>
+    </div>
+    <div className="project">
+      <Fade bottom>
+        <div className="mobileColumn">
           <img className="projectImg" src={projectOne} alt="project 1 image"></img>
           <div className="projectBlurb">
             <h2>Help Cher Turn Back Time</h2>
             <h4>HTML | CSS | Javascript</h4>
-            <p>This was a solo project completed in one week
+            <p>This was a solo project completed in one week.
             It was my own diva-laden take on the famous Space Invaders .
             Play along and shoot CDs at the approaching clocks. Avoid
             the cannon balls from the USS Missouri - the set of one of
