@@ -115,15 +115,16 @@ width: 70vw;
   justify-items: space-between;
   align-items: center;
   background: linear-gradient(rgba(0, 3, 5, 0.9), rgba(0, 3, 5, 0.9)), url("../styles/section.png") no-repeat fixed 50% 0px / cover;
-    .skillsImage {
-      width: 30%;
-      margin-left: 40px;
-    }  
-    h1 {
-      margin:auto;
-      font-size: 200px;
-    }
+   
     
+}
+.skillsImage {
+  width: 30%;
+  margin-left: 40px;
+}  
+h1 {
+  margin:auto;
+  font-size: 200px;
 }
 .skillsIcons{
   display: flex;
@@ -281,8 +282,8 @@ flex-direction: row;
       margin: auto;
       width:50vw;
       margin:0;
-    
     }
+    
     .skillsSection {
       display:flex;
       flex-direction: column;
@@ -292,6 +293,7 @@ flex-direction: row;
     
     .skillsImage{
       width: 40vw;
+      margin-left: -15px;
     }
     }
     .skillsIcons{
