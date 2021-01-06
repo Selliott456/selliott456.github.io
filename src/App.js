@@ -14,7 +14,6 @@ import './styles/style.scss'
 const App = () => {
   return <main>
     <Hero />
-    <Navbar />
     <About />
     <Skills />
     <Projects />
