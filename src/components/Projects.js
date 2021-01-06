@@ -21,6 +21,14 @@ import { Carousel } from 'react-responsive-carousel'
 
 
 const Projects = () => {
+
+  const shoot = () => {
+    alert(this)
+    /*
+    The 'this' keyword refers to the component object
+    */
+  }
+
   return <main className="projectsMain">
     <h1>Projects</h1>
     <div className="project">
