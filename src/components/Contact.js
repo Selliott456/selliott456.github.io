@@ -1,8 +1,6 @@
 import React from 'react'
-import contact from '../styles/contact.png'
-import { useState } from 'react'
 import emailjs from 'emailjs-com'
-import logo from '../styles/logo.png'
+
 
 
 
@@ -20,7 +18,7 @@ const Contact = () => {
   }
 
   return (<main className="contactMain">
-    <img className="sprayTitle" src={contact} alt="contact"></img>
+    <h1>Contact Me</h1>
     <form className="contact-form" onSubmit={sendEmail}>
       <input className="formInput" type="hidden" name="contact_number" />
       <label className="formLabel">Name</label>
@@ -33,7 +31,6 @@ const Contact = () => {
       <textarea className="message" name="message" />
       <input className="formSend" type="submit" value="Send" />
     </form>
-    <a href="/"><img className="footerLogo" src={logo}></img></a>
   </main>
   )
 }

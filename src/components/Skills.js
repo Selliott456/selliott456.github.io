@@ -1,14 +1,15 @@
 import React from 'react'
-import skills from '../styles/skills.png'
+
 import { DiJsBadge, DiHtml5, DiCss3, DiSass, DiReact, DiNodejsSmall, DiMongodb, DiPython, DiGit, DiGithubBadge, DiTerminal, DiResponsive, DiNpm, DiVisualstudio } from 'react-icons/di'
 import { SiFlask, SiPostgresql, SiHeroku, SiNetlify, SiBabel, SiSocketDotIo } from 'react-icons/si'
-import { IoAccessibilityOutline } from 'react-icons/io5'
+
 
 
 const Skills = () => {
   return <main className="mainSkills">
     <div className="skillsSection">
-      <img className="skillsImage" src={skills} alt="skills"></img>
+      <h1 className="skillsImage">Skills</h1>
+      
       <div className="skillsIcons">
         <div className="skillBadge">
           <DiJsBadge size={40} color="#fc4445" />

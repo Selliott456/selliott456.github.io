@@ -1,42 +1,49 @@
 import React from 'react'
-import projects from '../styles/projects.png'
-import projectOne from '../styles/projectOne.png'
-import projectTwo from '../styles/projectTwo.png'
-import projectThree from '../styles/projectThree.png'
-import projectFour from '../styles/projectFour.png'
-import Fade from 'react-reveal/Fade';
+import devmaps1 from '../styles/devmaps1.png'
+import devmaps2 from '../styles/devmaps2.png'
+import devmaps3 from '../styles/devmaps3.png'
+import howto1 from '../styles/howto1.png'
+import howto2 from '../styles/howto2.png'
+import howto3 from '../styles/howto3.png'
+import howto4 from '../styles/howto4.png'
+import pizza1 from '../styles/pizza1.png'
+import pizza2 from '../styles/pizza2.png'
+import pizza3 from '../styles/pizza3.png'
+import pizza4 from '../styles/pizza4.png'
+import cher1 from '../styles/cher1.png'
+import cher2 from '../styles/cher2.png'
+import cher3 from '../styles/cher3.png'
+import cher4 from '../styles/cher4.png'
+import Fade from 'react-reveal/Fade'
+import 'react-responsive-carousel/lib/styles/carousel.min.css'
+import { Carousel } from 'react-responsive-carousel'
+
 
 
 const Projects = () => {
   return <main className="projectsMain">
-    <img className="sprayTitle" src={projects} alt="projects"></img>
-    
+    <h1>Projects</h1>
     <div className="project">
       <Fade bottom>
         <div className="mobileColumn">
-          <img className="projectImg" src={projectThree} alt="project 3 image"></img>
-          <div className="projectBlurb">
-            <h2>Devs.Map</h2>
-            <h4>React | Sass | Node.js | MongoDB | Heroku | Socket.io </h4>
-            <p>This was a group project completed in one week. We designed this fullstack
-            application as a mix of a travel blog and dating site for developers on the move to
-            link up for collaborations and use our chat function to have conversations
-            online.<br></br><br></br>
-            I was responsible for building the chatroom using socket.io and creating the basic
-            layout of the pages on the frontend.
-            </p>
-            <div className="buttons">
-              <button><a className="button" href="https://still-river-70995.herokuapp.com">Live Site</a></button>
-              <button><a className="button" href="https://github.com/Selliott456/project-3">Code</a></button>
+          <div className="projectImg">
+            <div className="carousel-wrapper">
+              <Carousel infiniteLoop useKeyboardArrows autoPlay>
+                <div>
+                  <img src={howto1} />
+                </div>
+                <div>
+                  <img src={howto2} />
+                </div>
+                <div>
+                  <img src={howto3} />
+                </div>
+                <div>
+                  <img src={howto4} />
+                </div>
+              </Carousel>
             </div>
           </div>
-        </div>
-      </Fade>
-    </div>
-    <div className="project">
-      <Fade bottom>
-        <div className="mobileColumn">
-          <img className="projectImg" src={projectFour} alt="project 4 image"></img>
           <div className="projectBlurb">
             <h2>HowTo Tube</h2>
             <h4>React | Sass | Python | Flask | PostgreSQL</h4>
@@ -60,7 +67,60 @@ const Projects = () => {
     <div className="project">
       <Fade bottom>
         <div className="mobileColumn">
-          <img className="projectImg" src={projectTwo} alt="project 2 image"></img>
+          <div className="projectImg">
+            <div className="carousel-wrapper">
+              <Carousel infiniteLoop useKeyboardArrows autoPlay>
+                <div>
+                  <img src={devmaps1} />
+                </div>
+                <div>
+                  <img src={devmaps2} />
+                </div>
+                <div>
+                  <img src={devmaps3} />
+                </div>
+              </Carousel>
+            </div>
+          </div>
+          <div className="projectBlurb">
+            <h2>Devs.Map</h2>
+            <h4>React | Sass | Node.js | MongoDB | Heroku | Socket.io </h4>
+            <p>This was a group project completed in one week. We designed this fullstack
+            application as a mix of a travel blog and dating site for developers on the move to
+            link up for collaborations and use our chat function to have conversations
+            online.<br></br><br></br>
+            I was responsible for building the chatroom using socket.io and creating the basic
+            layout of the pages on the frontend.
+            </p>
+            <div className="buttons">
+              <button><a className="button" href="https://still-river-70995.herokuapp.com">Live Site</a></button>
+              <button><a className="button" href="https://github.com/Selliott456/project-3">Code</a></button>
+            </div>
+          </div>
+        </div>
+      </Fade>
+    </div>
+    <div className="project">
+      <Fade bottom>
+        <div className="mobileColumn">
+          <div className="projectImg">
+            <div className="carousel-wrapper">
+              <Carousel infiniteLoop useKeyboardArrows autoPlay>
+                <div>
+                  <img src={pizza1} />
+                </div>
+                <div>
+                  <img src={pizza2} />
+                </div>
+                <div>
+                  <img src={pizza3} />
+                </div>
+                <div>
+                  <img src={pizza4} />
+                </div>
+              </Carousel>
+            </div>
+          </div>
           <div className="projectBlurb">
             <h2>You Want A Pizza Me?</h2>
             <h4>React | JSX | CSS</h4>
@@ -81,7 +141,24 @@ const Projects = () => {
     <div className="project">
       <Fade bottom>
         <div className="mobileColumn">
-          <img className="projectImg" src={projectOne} alt="project 1 image"></img>
+          <div className="projectImg">
+            <div className="carousel-wrapper">
+              <Carousel infiniteLoop useKeyboardArrows autoPlay>
+                <div>
+                  <img src={cher1} />
+                </div>
+                <div>
+                  <img src={cher2} />
+                </div>
+                <div>
+                  <img src={cher3} />
+                </div>
+                <div>
+                  <img src={cher4} />
+                </div>
+              </Carousel>
+            </div>
+          </div>
           <div className="projectBlurb">
             <h2>Help Cher Turn Back Time</h2>
             <h4>HTML | CSS | Javascript</h4>

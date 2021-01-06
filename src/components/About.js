@@ -1,11 +1,11 @@
 import React from 'react'
-import splashRight from '../styles/splashRight.png'
-import splashLeft from '../styles/splashLeft.png'
-import about from '../styles/about.png'
+import me from '../styles/me.png'
+
 const About = () => {
   return <main className="about">
-    <img className="sprayTitle" src={about} alt="about"></img>
+    <h1>About</h1>
     <div className="aboutText">
+      <img className="me" src={me} alt="profile photo"></img>
       <p className="aboutParagraph">
         For 15 years or so (read the glorious era of my 20s where my knees didn’t complain)
         I was teaching Physics to 11-18 year olds. I am now a full stack developer with

@@ -10,6 +10,7 @@ const Footer = () => {
       <a className="footerIcon" href="https://github.com/Selliott456"><img className="footerImage" src={github} alt="github Icon"></img></a>
       <a className="footerIcon" href="https://www.linkedin.com/in/sherryll-elliott-b41b6b15a/"><img className="footerImage" src={linked} alt="LinkedIn Icon"></img></a>
     </div>
+    <small className="footerSmall">Sherryll Elliott Jan 2021</small>
   </main>
 }
 
