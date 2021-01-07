@@ -22,11 +22,8 @@ import { Carousel } from 'react-responsive-carousel'
 
 const Projects = () => {
 
-  const shoot = () => {
-    alert(this)
-    /*
-    The 'this' keyword refers to the component object
-    */
+  const Message = () => {
+    alert(`Well aren't you good looking?! Sorry this page takes a while to load - it is hosted on a free HEROKU account. The site itself, however, is FLAWLESS (like its contributors).` )
   }
 
   return <main className="projectsMain">
@@ -65,8 +62,8 @@ const Projects = () => {
             I also styled the entire project.
             </p>
             <div className="buttons">
-              <button><a className="button" href="http://sherryll-howto-tube.herokuapp.com/">Live Site</a></button>
-              <button><a className="button" href="https://github.com/Selliott456/project-4">Code</a></button>
+              <button onClick={Message}><a className="button" href="http://sherryll-howto-tube.herokuapp.com/">Live Site</a></button>
+              <button onClick={Message}><a className="button" href="https://github.com/Selliott456/project-4">Code</a></button>
             </div>
           </div>
         </div>
