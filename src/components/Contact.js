@@ -22,13 +22,13 @@ const Contact = () => {
     <form className="contact-form" onSubmit={sendEmail}>
       <input className="formInput" type="hidden" name="contact_number" />
       <label className="formLabel">Name</label>
-      <input className="formInput" type="text" name="name" />
+      <input className="formInput" type="text" name="name" required />
       <label className="formLabel">Email</label>
-      <input className="formInput" type="email" name="email" />
+      <input className="formInput" type="email" name="email" required />
       <label className="formLabel">Subject</label>
-      <input className="formInput" type="text" name="subject" />
+      <input className="formInput" type="text" name="subject" required/>
       <label className="formLabel">Message</label>
-      <textarea className="message" name="message" />
+      <textarea className="message" name="message" required />
       <input className="formSend" type="submit" value="Send" />
     </form>
   </main>
