@@ -63,7 +63,7 @@ const Projects = () => {
             </p>
             <div className="buttons">
               <button onClick={Message}><a className="button" href="http://sherryll-howto-tube.herokuapp.com/">Live Site</a></button>
-              <button onClick={Message}><a className="button" href="https://github.com/Selliott456/project-4">Code</a></button>
+              <button ><a className="button" href="https://github.com/Selliott456/project-4">Code</a></button>
             </div>
           </div>
         </div>
@@ -98,7 +98,7 @@ const Projects = () => {
             layout of the pages on the frontend.
             </p>
             <div className="buttons">
-              <button><a className="button" href="https://still-river-70995.herokuapp.com">Live Site</a></button>
+              <button onClick={Message}><a className="button" href="https://still-river-70995.herokuapp.com">Live Site</a></button>
               <button><a className="button" href="https://github.com/Selliott456/project-3">Code</a></button>
             </div>
           </div>
