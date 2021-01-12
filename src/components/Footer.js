@@ -2,6 +2,8 @@ import React from 'react'
 import email from '../styles/email.png'
 import github from '../styles/github.png'
 import linked from '../styles/linked.png'
+
+
 const Footer = () => {
 
   return <main className="mainFooter">
