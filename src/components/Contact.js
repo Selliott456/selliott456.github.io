@@ -17,7 +17,7 @@ const Contact = () => {
     e.target.reset()
   }
 
-  return (<main className="contactMain">
+  return (<main id="contactMain" className="contactMain">
     <h1>Contact Me</h1>
     <form className="contact-form" onSubmit={sendEmail}>
       <input className="formInput" type="hidden" name="contact_number" />
