@@ -17,7 +17,7 @@ const About = () => {
           <br></br>
           <br></br>
           I am originally from Glasgow, Scotland but have lived and worked in Spain, Luxembourg and London,
-          leading teams in ever location! I believe that this is testament to the fact that I have the 
+          leading teams in every location! I believe that this is testament to the fact that I have the 
           guts to make bold decisions and the grit to see them through, no matter what culture I am immersed
           in or the language spoken!     
         </p>
