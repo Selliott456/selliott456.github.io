@@ -14,11 +14,16 @@ import cher1 from '../styles/cher1.png'
 import cher2 from '../styles/cher2.png'
 import cher3 from '../styles/cher3.png'
 import cher4 from '../styles/cher4.png'
+import cbt1 from '../styles/cbt1.png'
+import cbt2 from '../styles/cbt2.png'
+import cbt3 from '../styles/cbt3.png'
+import cbt4 from '../styles/cbt4.png'
+
 import Fade from 'react-reveal/Fade'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import { Carousel } from 'react-responsive-carousel'
 import { DiJsBadge, DiHtml5, DiCss3, DiSass, DiReact, DiNodejsSmall, DiMongodb, DiPython, DiGit, DiGithubBadge, DiTerminal, DiResponsive, DiNpm, DiVisualstudio } from 'react-icons/di'
-import { SiFlask, SiPostgresql, SiHeroku, SiNetlify, SiBabel, SiSocketDotIo } from 'react-icons/si'
+import { SiFlask, SiPostgresql, SiHeroku, SiSocketDotIo } from 'react-icons/si'
 
 
 
@@ -30,6 +35,63 @@ const Projects = () => {
 
   return <main id="projectsMain" className="projectsMain">
     <h1>Projects</h1>
+    <div className="project">
+      <Fade bottom>
+        <div className="mobileColumn">
+          <div className="projectImg">
+            <div className="carousel-wrapper">
+              <Carousel infiniteLoop useKeyboardArrows autoPlay>
+                <div>
+                  <img src={cbt1} />
+                </div>
+                <div>
+                  <img src={cbt2} />
+                </div>
+                <div>
+                  <img src={cbt3} />
+                </div>
+                <div>
+                  <img src={cbt4} />
+                </div>
+              </Carousel>
+            </div>
+          </div>
+          <div className="projectBlurb">
+            <h2>CBT Inverclyde</h2>
+            <h4 className="techUsed">
+              <div className="skillBadge">
+                <DiReact size={40} color="#fc4445" />
+                <p>React</p>
+              </div>
+              <div className="skillBadge">
+                <DiJsBadge size={40} color="#fc4445" />
+                <p>JavaScript</p>
+              </div>
+              <div className="skillBadge">
+                <DiSass size={40} color="#fc4445" />
+                <p>Sass</p>
+              </div>
+            </h4>
+            <p className="projectPara">
+              This was a paid project for a client that runs a cognitive behavioural therapy clinic in
+              Inverclyde, Scotland. This took about a week and a half to complete as the client requested 
+              a total re-brand of their old website.
+              <br></br>
+              <br></br>
+              I first gave the client a range
+              of colour schemes to choose from and a variety of logo designs that I generated. The aforementioned
+              look was then agreed upon and the project ran until completion with various moments where the client 
+              was asked to check that they were happy with wording/layout. This allowed the client to request design
+              changes before they became major features in the final site.  
+            </p>
+            <div className="buttons">
+              <button><a className="button" href="https://elastic-euclid-e2ec55.netlify.app/">Live Site</a></button>
+              <button><a className="button" href="https://github.com/Selliott456/inverclydeCBT">Code</a></button>
+            </div>
+          </div>
+        </div>
+      </Fade>
+    </div>
     <div className="project">
       <Fade bottom>
         <div className="mobileColumn">
@@ -180,6 +242,10 @@ const Projects = () => {
               <div className="skillBadge">
                 <DiReact size={40} color="#fc4445" />
                 <p>React</p>
+              </div>
+              <div className="skillBadge">
+                <DiJsBadge size={40} color="#fc4445" />
+                <p>JavaScript</p>
               </div>
               <div className="skillBadge">
                 <DiCss3 size={40} color="#fc4445" />
