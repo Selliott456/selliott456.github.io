@@ -18,6 +18,9 @@ import cbt1 from '../styles/cbt1.png'
 import cbt2 from '../styles/cbt2.png'
 import cbt3 from '../styles/cbt3.png'
 import cbt4 from '../styles/cbt4.png'
+import dictionary from '../styles/dictionary.png'
+import dictionary1 from '../styles/dictionary1.png'
+import dictionary3 from '../styles/dictionary3.png'
 
 import Fade from 'react-reveal/Fade'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
@@ -151,6 +154,64 @@ const Projects = () => {
               <button ><a className="button" href="https://github.com/Selliott456/project-4">Code</a></button>
             </div>
           </div>
+        </div>
+      </Fade>
+    </div>
+    <div className="project">
+      <Fade bottom>
+        <div className="mobileColumn">
+          <div className="projectImg">
+            <div className="carousel-wrapper">
+              <Carousel infiniteLoop useKeyboardArrows autoPlay>
+                <div>
+                  <img src={dictionary1} />
+                </div>
+                <div>
+                  <img src={dictionary} />
+                </div>
+                <div>
+                  <img src={dictionary3} />
+                </div>
+              </Carousel>
+            </div>
+          </div>
+          <div className="projectBlurb">
+            <h2>Speech Recognition Dictionary</h2>
+            <h4 className="techUsed">
+              <div className="skillBadge">
+                <DiReact size={40} color="#fc4445" />
+                <p>React</p>
+              </div>
+              <div className="skillBadge">
+                <DiJsBadge size={40} color="#fc4445" />
+                <p>JavaScript</p>
+              </div>
+              <div className="skillBadge">
+                <DiCss3 size={40} color="#fc4445" />
+                <p>CSS</p>
+              </div></h4>
+            <p className="projectPara">
+              I built this app over the course of a few days in order to 
+              test out the Words API and a speech recognition module I found.
+              It is supposed to be used on mobile devices 
+              <br></br>
+              <br></br>
+              The idea came from an issue I had when I was a teacher. We used to 
+              highlight spelling errors and it was up to the student to find the 
+              correct spelling in the dictionary. I became aware, however, that 
+              very often students would not know what the word began with so wanted
+              to build something they could speak their words into. 
+              <br></br>
+              <br></br>
+              I know the colour-scheme would make your nose bleed but the idea was to make it 
+              appealing to children!
+            </p>
+            <div className="buttons">
+              <button><a className="button" href="https://confident-neumann-d2911d.netlify.app">Live Site</a></button>
+              <button><a className="button" href="https://github.com/Selliott456/dictionary">Code</a></button>
+            </div>
+          </div>
+
         </div>
       </Fade>
     </div>
