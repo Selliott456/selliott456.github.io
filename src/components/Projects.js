@@ -74,6 +74,7 @@ const Projects = () => {
             <p className="projectPara">
               I built this app over the course of a few days in order to 
               test out the Words API and a speech recognition module I found.
+              It is supposed to be used on mobile devices 
               <br></br>
               <br></br>
               The idea came from an issue I had when I was a teacher. We used to 
