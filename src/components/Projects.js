@@ -6,10 +6,10 @@ import howto1 from '../styles/howto1.png'
 import howto2 from '../styles/howto2.png'
 import howto3 from '../styles/howto3.png'
 import howto4 from '../styles/howto4.png'
-import pizza1 from '../styles/pizza1.png'
-import pizza2 from '../styles/pizza2.png'
-import pizza3 from '../styles/pizza3.png'
-import pizza4 from '../styles/pizza4.png'
+// import pizza1 from '../styles/pizza1.png'
+// import pizza2 from '../styles/pizza2.png'
+// import pizza3 from '../styles/pizza3.png'
+// import pizza4 from '../styles/pizza4.png'
 import cher1 from '../styles/cher1.png'
 import cher2 from '../styles/cher2.png'
 import cher3 from '../styles/cher3.png'
@@ -77,15 +77,15 @@ const Projects = () => {
             </h4>
             <p className="projectPara">
               This was a paid project for a client that runs a cognitive behavioural therapy clinic in
-              Inverclyde, Scotland. This took about a week and a half to complete as the client requested 
+              Inverclyde, Scotland. This took about a week and a half to complete as the client requested
               a total re-brand of their old website.
               <br></br>
               <br></br>
               I first gave the client a range
               of colour schemes to choose from and a variety of logo designs that I generated. The aforementioned
-              look was then agreed upon and the project ran until completion with various moments where the client 
+              look was then agreed upon and the project ran until completion with various moments where the client
               was asked to check that they were happy with wording/layout. This allowed the client to request design
-              changes before they became major features in the final site.  
+              changes before they became major features in the final site.
             </p>
             <div className="buttons">
               <button><a className="button" href="https://elastic-euclid-e2ec55.netlify.app/">Live Site</a></button>
@@ -191,19 +191,19 @@ const Projects = () => {
                 <p>CSS</p>
               </div></h4>
             <p className="projectPara">
-              I built this app over the course of a few days in order to 
+              I built this app over the course of a few days in order to
               test out the Words API and a speech recognition module I found.
-              It is supposed to be used on mobile devices 
+              It is supposed to be used on mobile devices
               <br></br>
               <br></br>
-              The idea came from an issue I had when I was a teacher. We used to 
-              highlight spelling errors and it was up to the student to find the 
-              correct spelling in the dictionary. I became aware, however, that 
+              The idea came from an issue I had when I was a teacher. We used to
+              highlight spelling errors and it was up to the student to find the
+              correct spelling in the dictionary. I became aware, however, that
               very often students would not know what the word began with so wanted
-              to build something they could speak their words into. 
+              to build something they could speak their words into.
               <br></br>
               <br></br>
-              I know the colour-scheme would make your nose bleed but the idea was to make it 
+              I know the colour-scheme would make your nose bleed but the idea was to make it
               appealing to children!
             </p>
             <div className="buttons">
@@ -276,56 +276,56 @@ const Projects = () => {
         </div>
       </Fade>
     </div>
-    <div className="project">
-      <Fade bottom>
-        <div className="mobileColumn">
-          <div className="projectImg">
-            <div className="carousel-wrapper">
-              <Carousel infiniteLoop useKeyboardArrows autoPlay>
-                <div>
-                  <img src={pizza1} />
-                </div>
-                <div>
-                  <img src={pizza2} />
-                </div>
-                <div>
-                  <img src={pizza3} />
-                </div>
-                <div>
-                  <img src={pizza4} />
-                </div>
-              </Carousel>
-            </div>
-          </div>
-          <div className="projectBlurb">
-            <h2>You Want A Pizza Me?</h2>
-            <h4 className="techUsed">
-              <div className="skillBadge">
-                <DiReact size={40} color="#fc4445" />
-                <p>React</p>
-              </div>
-              <div className="skillBadge">
-                <DiJsBadge size={40} color="#fc4445" />
-                <p>JavaScript</p>
-              </div>
-              <div className="skillBadge">
-                <DiCss3 size={40} color="#fc4445" />
-                <p>CSS</p>
-              </div></h4>
-            <p className="projectPara">This was a pair project completed in 48 hours. We used the Just Eat API
-            and postcodes.io to create a marketable project which allowed users to look
-            through restaurants in their area. The API allowed us to populate our pages
-            with information such as cuisines, addresses, order details and ratings.
-            </p>
-            <div className="buttons">
-              <button><a className="button" href="https://prodigresser.github.io/project-2/">Live Site</a></button>
-              <button><a className="button" href="https://github.com/Selliott456/project-2">Code</a></button>
-            </div>
-          </div>
-
-        </div>
-      </Fade>
-    </div>
+    {/* <div className="project"> */}
+    {/* <Fade bottom> */}
+    {/* <div className="mobileColumn"> */}
+    {/* <div className="projectImg"> */}
+    {/* <div className="carousel-wrapper"> */}
+    {/* <Carousel infiniteLoop useKeyboardArrows autoPlay> */}
+    {/* <div> */}
+    {/* <img src={pizza1} /> */}
+    {/* </div> */}
+    {/* <div> */}
+    {/* <img src={pizza2} /> */}
+    {/* </div> */}
+    {/* <div> */}
+    {/* <img src={pizza3} /> */}
+    {/* </div> */}
+    {/* <div> */}
+    {/* <img src={pizza4} /> */}
+    {/* </div> */}
+    {/* </Carousel> */}
+    {/* </div> */}
+    {/* </div> */}
+    {/* <div className="projectBlurb"> */}
+    {/* <h2>You Want A Pizza Me?</h2> */}
+    {/* <h4 className="techUsed"> */}
+    {/* <div className="skillBadge"> */}
+    {/* <DiReact size={40} color="#fc4445" /> */}
+    {/* <p>React</p> */}
+    {/* </div> */}
+    {/* <div className="skillBadge"> */}
+    {/* <DiJsBadge size={40} color="#fc4445" /> */}
+    {/* <p>JavaScript</p> */}
+    {/* </div> */}
+    {/* <div className="skillBadge"> */}
+    {/* <DiCss3 size={40} color="#fc4445" /> */}
+    {/* <p>CSS</p> */}
+    {/* </div></h4> */}
+    {/* <p className="projectPara">This was a pair project completed in 48 hours. We used the Just Eat API */}
+    {/* and postcodes.io to create a marketable project which allowed users to look */}
+    {/* through restaurants in their area. The API allowed us to populate our pages */}
+    {/* with information such as cuisines, addresses, order details and ratings. */}
+    {/* </p> */}
+    {/* <div className="buttons"> */}
+    {/* <button><a className="button" href="https://prodigresser.github.io/project-2/">Live Site</a></button> */}
+    {/* <button><a className="button" href="https://github.com/Selliott456/project-2">Code</a></button> */}
+    {/* </div> */}
+    {/* </div> */}
+    {/*  */}
+    {/* </div> */}
+    {/* </Fade> */}
+    {/* </div> */}
     <div className="project">
       <Fade bottom>
         <div className="mobileColumn">
